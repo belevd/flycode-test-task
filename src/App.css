@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+.svg-success {
+  color: #28a745;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.post-img {
+  width: 100%;
+  display: block;
+}
+
+.img-li {
+  position: relative;
+  width: 48%;
+}
+
+.comment-img-li {
+  position: relative;
+  width: 25%;
+}
+
+.comment-img {
+  width: 100%;
+  display: block;
+}
+
+.remove-img-btn {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: crimson;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.comment-wrapper {
+  position: relative;
+}
+
+.comment-btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 70px;
+  height: 30px;
+}
+
+.edit-comment {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: none;
+
+}
+
+.delete-comment {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: none;
+
+}
